@@ -113,6 +113,9 @@ p {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+.menu-item {
   padding: 24px 0;
 }
 
@@ -288,7 +291,7 @@ p {
 
 /*================== Portfolio Section ==================*/
 .portfolio {
-  padding-top: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -363,6 +366,7 @@ p {
 }
 
 .site-footer .logo {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -370,7 +374,6 @@ p {
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
