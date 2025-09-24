@@ -115,10 +115,6 @@ p {
   gap: 40px;
 }
 
-/* .menu-item {
-  padding: 24px 0 24px 0;
-} */
-
 .nav-item {
   display: inline-block;
   color: #2e2f42;
@@ -362,15 +358,8 @@ p {
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-.site-footer a {
-  display: inline-block;
-}
-
 .site-footer .logo {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
