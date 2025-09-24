@@ -116,7 +116,8 @@ p {
 }
 
 .menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-item {
@@ -365,7 +366,7 @@ p {
   flex-direction: column;
 }
 
-.site-footer .logo {
+.site-footer a.logo {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
